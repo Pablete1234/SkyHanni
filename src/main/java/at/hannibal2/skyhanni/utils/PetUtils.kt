@@ -273,8 +273,8 @@ object PetUtils {
             LorenzRarity.COMMON -> 0
             LorenzRarity.UNCOMMON -> 6
             LorenzRarity.RARE -> 11
-            LorenzRarity.EPIC -> 16
-            LorenzRarity.LEGENDARY -> 20
+            LorenzRarity.EPIC, LorenzRarity.SPECIAL -> 16
+            LorenzRarity.LEGENDARY, LorenzRarity.VERY_SPECIAL -> 20
             LorenzRarity.MYTHIC -> 20
             else -> ErrorManager.skyHanniError("Unknown pet rarity $rarity")
         }
